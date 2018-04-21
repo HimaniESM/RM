@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>End date should be after the start date</description>
+        <field>x_infte_esm_it_rel_planned_end_date</field>
+        <global>true</global>
+        <messages/>
+        <name>Planned End Date Validation(ESM)</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+	if (isLoading || newValue == '') {
+		return;
+	}
+	
+	//Variables to convert the date format.
+	var today = new Date();
+	var end = new Date(newValue);
+	var startDate = g_form.getValue('start_date');
+	var intToday = (today.getUTCFullYear() * 10000) + (today.getUTCMonth() * 100) + today.getUTCDate();
+	var intEnd = (end.getUTCFullYear() * 10000) + (end.getUTCMonth() * 100) + end.getUTCDate();
+	
+	//Validation to check whether 'End Date' is not lesser than the 'Start Date'
+	if(startDate != ''){
+		var start = new Date(startDate);
+		var intStart = (start.getUTCFullYear() * 10000) + (start.getUTCMonth() * 100) + start.getUTCDate();
+		
+		if(intEnd < intStart){
+			alert("'End Date' should be greater than or equal to 'Start Date'");
+			g_form.setValue('x_infte_esm_it_rel_planned_end_date','');
+		}
+	}
+	
+	if(startDate == ''){
+		alert("Please fill in the 'Start Date'");
+		g_form.setValue('x_infte_esm_it_rel_planned_end_date','');
+	}
+	}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>sushil</sys_created_by>
+        <sys_created_on>2018-04-18 09:10:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>edc80d25dbe193000a4f3a433a9619b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Planned End Date Validation(ESM)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ESM IT Release Management" source="x_infte_esm_it_rel">13fe8b81dba5530004bf6f048a961941</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ESM IT Release Management">13fe8b81dba5530004bf6f048a961941</sys_scope>
+        <sys_update_name>sys_script_client_edc80d25dbe193000a4f3a433a9619b0</sys_update_name>
+        <sys_updated_by>sushil</sys_updated_by>
+        <sys_updated_on>2018-04-18 09:10:21</sys_updated_on>
+        <table>rm_release</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

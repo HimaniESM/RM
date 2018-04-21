@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Submit the current form and confirm form submitted to server</description>
+        <display_name>Submit a Form</display_name>
+        <inputs/>
+        <order>27</order>
+        <step_config display_value="Submit a Form">be8e0a935332120028bc29cac2dc34e4</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>Amit_Kumar</sys_created_by>
+        <sys_created_on>2018-04-19 09:22:00</sys_created_on>
+        <sys_id>878516b9dbad930004bf6f048a96194a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Submit a Form</sys_name>
+        <sys_package display_value="ESM IT Release Management" source="x_infte_esm_it_rel">13fe8b81dba5530004bf6f048a961941</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ESM IT Release Management">13fe8b81dba5530004bf6f048a961941</sys_scope>
+        <sys_update_name>sys_atf_step_878516b9dbad930004bf6f048a96194a</sys_update_name>
+        <sys_updated_by>Amit_Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-19 09:22:00</sys_updated_on>
+        <table/>
+        <test display_value="Release Managemenr-1 ">5c042529db2593000a4f3a433a9619c6</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=878516b9dbad930004bf6f048a96194a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>878516b9dbad930004bf6f048a96194a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Amit_Kumar</sys_created_by>
+        <sys_created_on>2018-04-19 09:22:04</sys_created_on>
+        <sys_id>9d9596b9dbad930004bf6f048a9619a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Amit_Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-19 09:22:04</sys_updated_on>
+        <value>form_submitted_to_server</value>
+        <variable display_value="">c796d40497302200abe4bb7503ac4ad8</variable>
+    </sys_variable_value>
+</record_update>

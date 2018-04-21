@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>x_infte_esm_it_rel_planned_qa_date</field>
+        <global>true</global>
+        <messages/>
+        <name>Planned QA date validation(ESM)</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+	if (isLoading || newValue == '') {
+		return;
+	}
+	
+	//Variables to convert the date format.
+	var today = new Date();
+	var qadate = new Date(newValue);
+	var startDate = g_form.getValue('start_date');
+	var endDate = g_form.getValue('x_infte_esm_it_rel_planned_end_date');
+	var intToday = (today.getUTCFullYear() * 10000) + (today.getUTCMonth() * 100) + today.getUTCDate();
+	var intQA = (qadate.getUTCFullYear() * 10000) + (qadate.getUTCMonth() * 100) + qadate.getUTCDate();
+	
+	//Validation to check whether 'End Date' is not lesser than the 'Start Date'
+	if(startDate != '' && endDate != ''){
+		var start = new Date(startDate);
+		var intStart = (start.getUTCFullYear() * 10000) + (start.getUTCMonth() * 100) + start.getUTCDate();
+		var end = new Date(endDate);
+		var intEnd =  (end.getUTCFullYear() * 10000) + (end.getUTCMonth() * 100) + end.getUTCDate();
+		
+		if(intStart < intQA && intQA < intEnd){
+			
+			// do nothing, correct value
+		}
+		else{
+			alert("'Planned QA Date' should be greater than 'Start Date' and less than 'End Date'");
+			g_form.setValue('x_infte_esm_it_rel_planned_qa_date','');
+		}
+	}
+	
+	if(startDate == '' || endDate== ''){
+		alert("Please fill in the 'Start Date' & 'End Date'");
+		g_form.setValue('x_infte_esm_it_rel_planned_qa_date','');
+	}
+	}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>sushil</sys_created_by>
+        <sys_created_on>2018-04-18 12:36:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c307bd25db6593000a4f3a433a961999</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Planned QA date validation(ESM)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ESM IT Release Management" source="x_infte_esm_it_rel">13fe8b81dba5530004bf6f048a961941</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ESM IT Release Management">13fe8b81dba5530004bf6f048a961941</sys_scope>
+        <sys_update_name>sys_script_client_c307bd25db6593000a4f3a433a961999</sys_update_name>
+        <sys_updated_by>sushil</sys_updated_by>
+        <sys_updated_on>2018-04-18 12:46:07</sys_updated_on>
+        <table>rm_release</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

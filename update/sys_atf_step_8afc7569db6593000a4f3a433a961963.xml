@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Set the values on the form as follows:
+Configuration item = Zone Deluxe Games
+and Release Category = Normal
+and Release Type = Major Release
+and Assignment group = CAB Approval
+and Short description = Mandatory field
+and Description = Validation of mandatory fields and their field values</description>
+        <display_name>Set Field Values</display_name>
+        <inputs/>
+        <order>4</order>
+        <step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>Amit_Kumar</sys_created_by>
+        <sys_created_on>2018-04-18 12:56:04</sys_created_on>
+        <sys_id>8afc7569db6593000a4f3a433a961963</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Set Field Values</sys_name>
+        <sys_package display_value="ESM IT Release Management" source="x_infte_esm_it_rel">13fe8b81dba5530004bf6f048a961941</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ESM IT Release Management">13fe8b81dba5530004bf6f048a961941</sys_scope>
+        <sys_update_name>sys_atf_step_8afc7569db6593000a4f3a433a961963</sys_update_name>
+        <sys_updated_by>Amit_Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-19 10:44:34</sys_updated_on>
+        <table>rm_release</table>
+        <test display_value="Release Management-3">8afc3569db6593000a4f3a433a961961</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=8afc7569db6593000a4f3a433a961963"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>8afc7569db6593000a4f3a433a961963</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Amit_Kumar</sys_created_by>
+        <sys_created_on>2018-04-18 12:56:04</sys_created_on>
+        <sys_id>02fc7569db6593000a4f3a433a961965</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>Amit_Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-19 10:44:34</sys_updated_on>
+        <value>cmdb_ci=46a7a696a9fe198100d5064bdc21cd56^x_infte_esm_it_rel_release_category=normal^x_infte_esm_it_rel_release_type=major_release^assignment_group=b85d44954a3623120004689b2d5dd60a^short_description=Mandatory field^description=Validation of mandatory fields and their field values^EQ</value>
+        <variable display_value="">b3dba2465320220002c6435723dc34f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>8afc7569db6593000a4f3a433a961963</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Amit_Kumar</sys_created_by>
+        <sys_created_on>2018-04-18 12:56:04</sys_created_on>
+        <sys_id>4efc7569db6593000a4f3a433a961964</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Amit_Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-18 12:56:04</sys_updated_on>
+        <value>rm_release</value>
+        <variable display_value="">424ca6465320220002c6435723dc34b5</variable>
+    </sys_variable_value>
+</record_update>

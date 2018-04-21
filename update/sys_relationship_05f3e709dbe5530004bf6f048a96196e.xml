@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_relationship">
+    <sys_relationship action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>rm_release</basic_apply_to>
+        <basic_query_from>change_request</basic_query_from>
+        <insert_callback/>
+        <name>Related Change</name>
+        <query_from/>
+        <query_with><![CDATA[(function refineQuery(current, parent) {
+current.addQuery('sys_id','IN', parent.x_infte_esm_it_rel_change_tickets);
+	
+})(current, parent);]]></query_with>
+        <reference_field>assigned_to</reference_field>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>sushil</sys_created_by>
+        <sys_created_on>2018-04-17 07:11:51</sys_created_on>
+        <sys_id>05f3e709dbe5530004bf6f048a96196e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Related Change</sys_name>
+        <sys_package display_value="ESM IT Release Management" source="x_infte_esm_it_rel">13fe8b81dba5530004bf6f048a961941</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ESM IT Release Management">13fe8b81dba5530004bf6f048a961941</sys_scope>
+        <sys_update_name>sys_relationship_05f3e709dbe5530004bf6f048a96196e</sys_update_name>
+        <sys_updated_by>sushil</sys_updated_by>
+        <sys_updated_on>2018-04-17 07:11:51</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="delete_multiple" query="documentkey=05f3e709dbe5530004bf6f048a96196e"/>
+</record_update>

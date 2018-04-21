@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="5f5bd781dbe5530004bf6f048a9619e4" sys_domain="global" table="rm_release" version="3" view="ITIL_Release">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>process_flow.xml</element>
+            <position>0</position>
+            <sys_created_by>sushil</sys_created_by>
+            <sys_created_on>2018-04-18 13:30:26</sys_created_on>
+            <sys_id>d9d48661dba593000a4f3a433a96195e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Process flow">69c6332a7f0000017ae073a70e7500ad</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="rm_release" sys_domain="global" view="db5bd781dbe5530004bf6f048a9619e1">5f5bd781dbe5530004bf6f048a9619e4</sys_ui_section>
+            <sys_updated_by>sushil</sys_updated_by>
+            <sys_updated_on>2018-04-18 13:30:26</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>sushil</sys_created_by>
+            <sys_created_on>2018-04-18 13:30:26</sys_created_on>
+            <sys_id>91d48661dba593000a4f3a433a96195f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="rm_release" sys_domain="global" view="db5bd781dbe5530004bf6f048a9619e1">5f5bd781dbe5530004bf6f048a9619e4</sys_ui_section>
+            <sys_updated_by>sushil</sys_updated_by>
+            <sys_updated_on>2018-04-18 13:30:26</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>2</position>
+            <sys_created_by>sushil</sys_created_by>
+            <sys_created_on>2018-04-18 13:30:26</sys_created_on>
+            <sys_id>15d48661dba593000a4f3a433a96195f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="rm_release" sys_domain="global" view="db5bd781dbe5530004bf6f048a9619e1">5f5bd781dbe5530004bf6f048a9619e4</sys_ui_section>
+            <sys_updated_by>sushil</sys_updated_by>
+            <sys_updated_on>2018-04-18 13:30:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cmdb_ci</element>
+            <position>3</position>
+            <sys_created_by>sushil</sys_created_by>
+            <sys_created_on>2018-04-18 13:30:26</sys_created_on>
+            <sys_id>95d48661dba593000a4f3a433a96195f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="rm_release" sys_domain="global" view="db5bd781dbe5530004bf6f048a9619e1">5f5bd781dbe5530004bf6f048a9619e4</sys_ui_section>
+            <sys_updated_by>sushil</sys_updated_by>
+            <sys_updated_on>2018-04-18 13:30:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_infte_esm_it_rel_change_tickets</element>
+            <position>4</position>
+            <sys_created_by>sushil</sys_created_by>
+            <sys_created_on>2018-04-18 13:30:26</sys_created_on>
+            <sys_id>19d48661dba593000a4f3a433a96195f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="rm_release" sys_domain="global" view="db5bd781dbe5530004bf6f048a9619e1">5f5bd781dbe5530004bf6f048a9619e4</sys_ui_section>
+            <sys_updated_by>sushil</sys_updated_by>
+            <sys_updated_on>2018-04-18 13:30:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_infte_esm_it_rel_emergency_changes</element>
+            <position>5</position>
+            <sys_created_by>sushil</sys_created_by>
+            <sys_created_on>2018-04-18 13:30:26</sys_created_on>
+            <sys_id>99d48661dba593000a4f3a433a96195f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="rm_release" sys_domain="global" view="db5bd781dbe5530004bf6f048a9619e1">5f5bd781dbe5530004bf6f048a9619e4</sys_ui_section>
+            <sys_updated_by>sushil</sys_updated_by>
+            <sys_updated_on>2018-04-18 13:30:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <position>6</position>
+            <sys_created_by>sushil</sys_created_by>
+            <sys_created_on>2018-04-18 13:30:26</sys_created_on>
+            <sys_id>1dd48661dba593000a4f3a433a96195f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="rm_release" sys_domain="global" view="db5bd781dbe5530004bf6f048a9619e1">5f5bd781dbe5530004bf6f048a9619e4</sys_ui_section>
+            <sys_updated_by>sushil</sys_updated_by>
+            <sys_updated_on>2018-04-18 13:30:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>7</position>
+            <sys_created_by>sushil</sys_created_by>
+            <sys_created_on>2018-04-18 13:30:26</sys_created_on>
+            <sys_id>9dd48661dba593000a4f3a433a96195f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="rm_release" sys_domain="global" view="db5bd781dbe5530004bf6f048a9619e1">5f5bd781dbe5530004bf6f048a9619e4</sys_ui_section>
+            <sys_updated_by>sushil</sys_updated_by>
+            <sys_updated_on>2018-04-18 13:30:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>8</position>
+            <sys_created_by>sushil</sys_created_by>
+            <sys_created_on>2018-04-18 13:30:26</sys_created_on>
+            <sys_id>11d48661dba593000a4f3a433a961960</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="rm_release" sys_domain="global" view="db5bd781dbe5530004bf6f048a9619e1">5f5bd781dbe5530004bf6f048a9619e4</sys_ui_section>
+            <sys_updated_by>sushil</sys_updated_by>
+            <sys_updated_on>2018-04-18 13:30:26</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>9</position>
+            <sys_created_by>sushil</sys_created_by>
+            <sys_created_on>2018-04-18 13:30:26</sys_created_on>
+            <sys_id>91d48661dba593000a4f3a433a961960</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="rm_release" sys_domain="global" view="db5bd781dbe5530004bf6f048a9619e1">5f5bd781dbe5530004bf6f048a9619e4</sys_ui_section>
+            <sys_updated_by>sushil</sys_updated_by>
+            <sys_updated_on>2018-04-18 13:30:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_infte_esm_it_rel_release_category</element>
+            <position>10</position>
+            <sys_created_by>sushil</sys_created_by>
+            <sys_created_on>2018-04-18 13:30:26</sys_created_on>
+            <sys_id>15d48661dba593000a4f3a433a961960</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="rm_release" sys_domain="global" view="db5bd781dbe5530004bf6f048a9619e1">5f5bd781dbe5530004bf6f048a9619e4</sys_ui_section>
+            <sys_updated_by>sushil</sys_updated_by>
+            <sys_updated_on>2018-04-18 13:30:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_infte_esm_it_rel_release_type</element>
+            <position>11</position>
+            <sys_created_by>sushil</sys_created_by>
+            <sys_created_on>2018-04-18 13:30:26</sys_created_on>
+            <sys_id>95d48661dba593000a4f3a433a961960</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="rm_release" sys_domain="global" view="db5bd781dbe5530004bf6f048a9619e1">5f5bd781dbe5530004bf6f048a9619e4</sys_ui_section>
+            <sys_updated_by>sushil</sys_updated_by>
+            <sys_updated_on>2018-04-18 13:30:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_infte_esm_it_rel_outage_information</element>
+            <position>12</position>
+            <sys_created_by>sushil</sys_created_by>
+            <sys_created_on>2018-04-18 13:30:26</sys_created_on>
+            <sys_id>19d48661dba593000a4f3a433a961960</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="rm_release" sys_domain="global" view="db5bd781dbe5530004bf6f048a9619e1">5f5bd781dbe5530004bf6f048a9619e4</sys_ui_section>
+            <sys_updated_by>sushil</sys_updated_by>
+            <sys_updated_on>2018-04-18 13:30:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_infte_esm_it_rel_risk_score</element>
+            <position>13</position>
+            <sys_created_by>sushil</sys_created_by>
+            <sys_created_on>2018-04-18 13:30:26</sys_created_on>
+            <sys_id>99d48661dba593000a4f3a433a961960</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="rm_release" sys_domain="global" view="db5bd781dbe5530004bf6f048a9619e1">5f5bd781dbe5530004bf6f048a9619e4</sys_ui_section>
+            <sys_updated_by>sushil</sys_updated_by>
+            <sys_updated_on>2018-04-18 13:30:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>14</position>
+            <sys_created_by>sushil</sys_created_by>
+            <sys_created_on>2018-04-18 13:30:26</sys_created_on>
+            <sys_id>1dd48661dba593000a4f3a433a961960</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="rm_release" sys_domain="global" view="db5bd781dbe5530004bf6f048a9619e1">5f5bd781dbe5530004bf6f048a9619e4</sys_ui_section>
+            <sys_updated_by>sushil</sys_updated_by>
+            <sys_updated_on>2018-04-18 13:30:26</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>15</position>
+            <sys_created_by>sushil</sys_created_by>
+            <sys_created_on>2018-04-18 13:30:26</sys_created_on>
+            <sys_id>9dd48661dba593000a4f3a433a961960</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="rm_release" sys_domain="global" view="db5bd781dbe5530004bf6f048a9619e1">5f5bd781dbe5530004bf6f048a9619e4</sys_ui_section>
+            <sys_updated_by>sushil</sys_updated_by>
+            <sys_updated_on>2018-04-18 13:30:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>16</position>
+            <sys_created_by>sushil</sys_created_by>
+            <sys_created_on>2018-04-18 13:30:26</sys_created_on>
+            <sys_id>11d48661dba593000a4f3a433a961961</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="rm_release" sys_domain="global" view="db5bd781dbe5530004bf6f048a9619e1">5f5bd781dbe5530004bf6f048a9619e4</sys_ui_section>
+            <sys_updated_by>sushil</sys_updated_by>
+            <sys_updated_on>2018-04-18 13:30:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>rm_release</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>sushil</sys_created_by>
+            <sys_created_on>2018-04-17 06:31:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5f5bd781dbe5530004bf6f048a9619e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>rm_release</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ESM IT Release Management" source="x_infte_esm_it_rel">13fe8b81dba5530004bf6f048a961941</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ESM IT Release Management">13fe8b81dba5530004bf6f048a961941</sys_scope>
+            <sys_update_name>sys_ui_section_5f5bd781dbe5530004bf6f048a9619e4</sys_update_name>
+            <sys_updated_by>sushil</sys_updated_by>
+            <sys_updated_on>2018-04-17 06:31:31</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="ITIL Release" name="ITIL_Release">db5bd781dbe5530004bf6f048a9619e1</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

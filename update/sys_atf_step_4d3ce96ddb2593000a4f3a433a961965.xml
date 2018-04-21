@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Validate that the form matches the following condition:
+State = Deploy/Launch
+With a failure timeout of 5 Seconds</description>
+        <display_name>Field Values Validation</display_name>
+        <inputs/>
+        <order>42</order>
+        <step_config display_value="Field Values Validation">1b97cd31872022008182c9ded0e3ece5</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>Amit_Kumar</sys_created_by>
+        <sys_created_on>2018-04-18 11:43:16</sys_created_on>
+        <sys_id>4d3ce96ddb2593000a4f3a433a961965</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Field Values Validation</sys_name>
+        <sys_package display_value="ESM IT Release Management" source="x_infte_esm_it_rel">13fe8b81dba5530004bf6f048a961941</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ESM IT Release Management">13fe8b81dba5530004bf6f048a961941</sys_scope>
+        <sys_update_name>sys_atf_step_4d3ce96ddb2593000a4f3a433a961965</sys_update_name>
+        <sys_updated_by>Amit_Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-19 09:24:08</sys_updated_on>
+        <table>rm_release</table>
+        <test display_value="Release Managemenr-1 ">5c042529db2593000a4f3a433a9619c6</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=4d3ce96ddb2593000a4f3a433a961965"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>4d3ce96ddb2593000a4f3a433a961965</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Amit_Kumar</sys_created_by>
+        <sys_created_on>2018-04-18 11:43:18</sys_created_on>
+        <sys_id>005c6d6ddb2593000a4f3a433a9619a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Amit_Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-18 11:43:18</sys_updated_on>
+        <value>rm_release</value>
+        <variable display_value="">a0e13cc35320220002c6435723dc3467</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>4d3ce96ddb2593000a4f3a433a961965</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Amit_Kumar</sys_created_by>
+        <sys_created_on>2018-04-18 11:43:18</sys_created_on>
+        <sys_id>4c5c6d6ddb2593000a4f3a433a96199f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Amit_Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-18 11:43:18</sys_updated_on>
+        <value>state=10^EQ</value>
+        <variable display_value="">4aa838f25320220002c6435723dc34e1</variable>
+    </sys_variable_value>
+</record_update>

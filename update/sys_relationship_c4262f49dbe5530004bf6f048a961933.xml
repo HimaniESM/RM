@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_relationship">
+    <sys_relationship action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>release_phase</basic_apply_to>
+        <basic_query_from>rm_task</basic_query_from>
+        <insert_callback/>
+        <name>Release Task</name>
+        <query_from/>
+        <query_with><![CDATA[// relating phase to task
+current.addQuery('x_infte_esm_it_rel_phase_number',parent.number);]]></query_with>
+        <reference_field>assigned_to</reference_field>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>sushil</sys_created_by>
+        <sys_created_on>2018-04-17 07:19:57</sys_created_on>
+        <sys_id>c4262f49dbe5530004bf6f048a961933</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Release Task</sys_name>
+        <sys_package display_value="ESM IT Release Management" source="x_infte_esm_it_rel">13fe8b81dba5530004bf6f048a961941</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ESM IT Release Management">13fe8b81dba5530004bf6f048a961941</sys_scope>
+        <sys_update_name>sys_relationship_c4262f49dbe5530004bf6f048a961933</sys_update_name>
+        <sys_updated_by>sushil</sys_updated_by>
+        <sys_updated_on>2018-04-17 14:22:25</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="delete_multiple" query="documentkey=c4262f49dbe5530004bf6f048a961933"/>
+</record_update>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_infte_esm_it_rel.MyDateTimeAjax</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>MyDateTimeAjax</name>
+        <script><![CDATA[var MyDateTimeAjax = Class.create();
+MyDateTimeAjax.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+ nowDateTime: function () {
+        return gs.nowDateTime();
+    }
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>sushil</sys_created_by>
+        <sys_created_on>2018-04-18 08:53:54</sys_created_on>
+        <sys_id>b175c9a1dbe193000a4f3a433a9619f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MyDateTimeAjax</sys_name>
+        <sys_package display_value="ESM IT Release Management" source="x_infte_esm_it_rel">13fe8b81dba5530004bf6f048a961941</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="ESM IT Release Management">13fe8b81dba5530004bf6f048a961941</sys_scope>
+        <sys_update_name>sys_script_include_b175c9a1dbe193000a4f3a433a9619f4</sys_update_name>
+        <sys_updated_by>sushil</sys_updated_by>
+        <sys_updated_on>2018-04-18 08:53:54</sys_updated_on>
+    </sys_script_include>
+</record_update>

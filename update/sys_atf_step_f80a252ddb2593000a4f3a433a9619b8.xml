@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>There should be at least one record in 'rm_task' matching a query of
+Parent = {{Step 7: Submit a Form.Record}}
+and State = Open
+With a failure timeout of 5 Seconds</description>
+        <display_name>Record Query</display_name>
+        <inputs/>
+        <inputs/>
+        <order>28</order>
+        <step_config display_value="Record Query">0270b8005f30220012b44adb7f46666a</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>Amit_Kumar</sys_created_by>
+        <sys_created_on>2018-04-18 11:33:38</sys_created_on>
+        <sys_id>f80a252ddb2593000a4f3a433a9619b8</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>Record Query</sys_name>
+        <sys_package display_value="ESM IT Release Management" source="x_infte_esm_it_rel">13fe8b81dba5530004bf6f048a961941</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ESM IT Release Management">13fe8b81dba5530004bf6f048a961941</sys_scope>
+        <sys_update_name>sys_atf_step_f80a252ddb2593000a4f3a433a9619b8</sys_update_name>
+        <sys_updated_by>Amit_Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-19 09:27:32</sys_updated_on>
+        <table>rm_task</table>
+        <test display_value="Release Managemenr-1 ">5c042529db2593000a4f3a433a9619c6</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=f80a252ddb2593000a4f3a433a9619b8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>f80a252ddb2593000a4f3a433a9619b8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Amit_Kumar</sys_created_by>
+        <sys_created_on>2018-04-18 11:33:38</sys_created_on>
+        <sys_id>2e1ae52ddb2593000a4f3a433a961923</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Amit_Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-18 11:33:38</sys_updated_on>
+        <value>rm_task</value>
+        <variable display_value="">6fe5f8405f30220012b44adb7f4666e4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>f80a252ddb2593000a4f3a433a9619b8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Amit_Kumar</sys_created_by>
+        <sys_created_on>2018-04-18 11:33:38</sys_created_on>
+        <sys_id>ee1ae52ddb2593000a4f3a433a961923</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Amit_Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-18 11:33:38</sys_updated_on>
+        <value>parent={{step['64046529db2593000a4f3a433a961904'].record_id}}^state=1^EQ</value>
+        <variable display_value="">cf167c405f30220012b44adb7f46660d</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f80a252ddb2593000a4f3a433a9619b8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>f80a252ddb2593000a4f3a433a9619b8</id>
+        <sys_created_by>Amit_Kumar</sys_created_by>
+        <sys_created_on>2018-04-18 11:33:38</sys_created_on>
+        <sys_id>aa1ae52ddb2593000a4f3a433a961923</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Amit_Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-18 11:33:38</sys_updated_on>
+        <table>var__m_atf_input_variable_0270b8005f30220012b44adb7f46666a</table>
+        <value>parent={{step['64046529db2593000a4f3a433a961904'].record_id}}^state=1^EQ</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>f80a252ddb2593000a4f3a433a9619b8</id>
+        <sys_created_by>Amit_Kumar</sys_created_by>
+        <sys_created_on>2018-04-18 11:33:38</sys_created_on>
+        <sys_id>221a252ddb2593000a4f3a433a9619c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Amit_Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-18 11:33:38</sys_updated_on>
+        <table>var__m_atf_input_variable_0270b8005f30220012b44adb7f46666a</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

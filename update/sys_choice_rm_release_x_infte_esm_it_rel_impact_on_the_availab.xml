@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="x_infte_esm_it_rel_impact_on_the_availab" table="rm_release" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_infte_esm_it_rel_impact_on_the_availab</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>dfg</label>
+            <language>en</language>
+            <name>rm_release</name>
+            <sequence/>
+            <sys_created_by>sushil</sys_created_by>
+            <sys_created_on>2018-04-18 09:52:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>280395e9dbe193000a4f3a433a9619b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sushil</sys_updated_by>
+            <sys_updated_on>2018-04-18 09:52:53</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_infte_esm_it_rel_impact_on_the_availab</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- New choice --</label>
+            <language>en</language>
+            <name>rm_release</name>
+            <sequence/>
+            <sys_created_by>sushil</sys_created_by>
+            <sys_created_on>2018-04-18 10:21:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3cb915eddbe193000a4f3a433a9619d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sushil</sys_updated_by>
+            <sys_updated_on>2018-04-18 10:21:59</sys_updated_on>
+            <value>-- New choice --</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_infte_esm_it_rel_impact_on_the_availab</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- New choice --</label>
+            <language>en</language>
+            <name>rm_release</name>
+            <sequence/>
+            <sys_created_by>sushil</sys_created_by>
+            <sys_created_on>2018-04-17 13:39:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a74d7895dbe9530004bf6f048a961927</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sushil</sys_updated_by>
+            <sys_updated_on>2018-04-17 13:39:26</sys_updated_on>
+            <value>-- New choice --</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_infte_esm_it_rel_impact_on_the_availab</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>abc</label>
+            <language>en</language>
+            <name>rm_release</name>
+            <sequence/>
+            <sys_created_by>sushil</sys_created_by>
+            <sys_created_on>2018-04-18 10:27:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3bfa9521db2593000a4f3a433a9619ca</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>sushil</sys_updated_by>
+            <sys_updated_on>2018-04-18 10:27:47</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_infte_esm_it_rel_impact_on_the_availab</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Complete CI Outage during the Deployment Window</label>
+            <language>en</language>
+            <name>rm_release</name>
+            <sequence/>
+            <sys_created_by>sushil</sys_created_by>
+            <sys_created_on>2018-04-17 13:35:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4d4cbc55dbe9530004bf6f048a9619b5</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>sushil</sys_updated_by>
+            <sys_updated_on>2018-04-17 13:35:57</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_infte_esm_it_rel_impact_on_the_availab</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>wdesfad</label>
+            <language>en</language>
+            <name>rm_release</name>
+            <sequence/>
+            <sys_created_by>sushil</sys_created_by>
+            <sys_created_on>2018-04-18 10:21:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7f8915eddbe193000a4f3a433a9619d3</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>sushil</sys_updated_by>
+            <sys_updated_on>2018-04-18 10:21:29</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_infte_esm_it_rel_impact_on_the_availab</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Partial CI Outage, Limited Users/Regions Impacted</label>
+            <language>en</language>
+            <name>rm_release</name>
+            <sequence/>
+            <sys_created_by>sushil</sys_created_by>
+            <sys_created_on>2018-04-17 13:36:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>777c3095dbe9530004bf6f048a9619e1</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>sushil</sys_updated_by>
+            <sys_updated_on>2018-04-17 13:36:16</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_infte_esm_it_rel_impact_on_the_availab</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fully operational, no impact on Availability</label>
+            <language>en</language>
+            <name>rm_release</name>
+            <sequence/>
+            <sys_created_by>sushil</sys_created_by>
+            <sys_created_on>2018-04-17 13:36:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a09cbc55dbe9530004bf6f048a96197d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>sushil</sys_updated_by>
+            <sys_updated_on>2018-04-17 13:36:35</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_infte_esm_it_rel_impact_on_the_availab</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>sfdsadf</label>
+            <language>en</language>
+            <name>rm_release</name>
+            <sequence/>
+            <sys_created_by>sushil</sys_created_by>
+            <sys_created_on>2018-04-17 13:38:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e1fc3895dbe9530004bf6f048a9619c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sushil</sys_updated_by>
+            <sys_updated_on>2018-04-17 13:38:02</sys_updated_on>
+            <value>sdf</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_infte_esm_it_rel_impact_on_the_availab</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1-Complete CI Outage during the Deployment Window</label>
+            <language>en</language>
+            <name>rm_release</name>
+            <sequence>0</sequence>
+            <sys_created_by>sushil</sys_created_by>
+            <sys_created_on>2018-04-18 09:52:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d3e25da9dbe193000a4f3a433a9619aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sushil</sys_updated_by>
+            <sys_updated_on>2018-04-18 09:52:23</sys_updated_on>
+            <value>1-Complete CI Outage during the Deployment Window</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_infte_esm_it_rel_impact_on_the_availab</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2-Partial CI Outage, Limited Users/Regions Impacted</label>
+            <language>en</language>
+            <name>rm_release</name>
+            <sequence>1</sequence>
+            <sys_created_by>sushil</sys_created_by>
+            <sys_created_on>2018-04-18 09:52:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d7e25da9dbe193000a4f3a433a9619ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sushil</sys_updated_by>
+            <sys_updated_on>2018-04-18 09:52:23</sys_updated_on>
+            <value>2-Partial CI Outage, Limited Users/Regions Impacted</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_infte_esm_it_rel_impact_on_the_availab</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3-Fully operational, no impact on Availability</label>
+            <language>en</language>
+            <name>rm_release</name>
+            <sequence>2</sequence>
+            <sys_created_by>sushil</sys_created_by>
+            <sys_created_on>2018-04-18 09:52:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5be25da9dbe193000a4f3a433a9619ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sushil</sys_updated_by>
+            <sys_updated_on>2018-04-18 09:52:23</sys_updated_on>
+            <value>3-Fully operational, no impact on Availability</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_infte_esm_it_rel_impact_on_the_availab</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Complete CI outage during the deployment window</label>
+            <language>en</language>
+            <name>rm_release</name>
+            <sequence>100</sequence>
+            <sys_created_by>sushil</sys_created_by>
+            <sys_created_on>2018-04-17 06:43:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1bcdd305dbe5530004bf6f048a9619cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sushil</sys_updated_by>
+            <sys_updated_on>2018-04-17 06:43:26</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_infte_esm_it_rel_impact_on_the_availab</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Partial CI outage, limited users/regions impacted</label>
+            <language>en</language>
+            <name>rm_release</name>
+            <sequence>200</sequence>
+            <sys_created_by>sushil</sys_created_by>
+            <sys_created_on>2018-04-17 06:44:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f92e1b05dbe5530004bf6f048a961952</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sushil</sys_updated_by>
+            <sys_updated_on>2018-04-17 06:44:25</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_infte_esm_it_rel_impact_on_the_availab</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fully operational , no impact on availability</label>
+            <language>en</language>
+            <name>rm_release</name>
+            <sequence>300</sequence>
+            <sys_created_by>sushil</sys_created_by>
+            <sys_created_on>2018-04-17 06:45:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7d5e1b05dbe5530004bf6f048a961959</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sushil</sys_updated_by>
+            <sys_updated_on>2018-04-17 06:45:01</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>x_infte_esm_it_rel_impact_on_the_availab</element>
+            <name>rm_release</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>sushil</sys_created_by>
+            <sys_created_on>2018-04-17 06:43:26</sys_created_on>
+            <sys_id>0a1e5705dbe5530004bf6f048a961900</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_infte_esm_it_rel_impact_on_the_availab</sys_name>
+            <sys_package display_value="ESM IT Release Management" source="x_infte_esm_it_rel">13fe8b81dba5530004bf6f048a961941</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ESM IT Release Management">13fe8b81dba5530004bf6f048a961941</sys_scope>
+            <sys_update_name>sys_choice_rm_release_x_infte_esm_it_rel_impact_on_the_availab</sys_update_name>
+            <sys_updated_by>sushil</sys_updated_by>
+            <sys_updated_on>2018-04-17 06:43:26</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

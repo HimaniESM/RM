@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>It will populate Risk field according to calculated Risk Score</description>
+        <field>x_infte_esm_it_rel_u_question_1</field>
+        <global>true</global>
+        <messages/>
+        <name>Calculate Score For Risk Survey(ESM)</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+	var score=0;
+	// Calculating score from all the risk survey questions
+	for(i=1;i<=10;i++){
+		var a= i;
+		var b= a.toString();
+		var c= g_form.getValue('x_infte_esm_it_rel_u_question_' + b);
+	
+		score=score+parseInt(c);
+		}
+	// setting the risk score field value
+	if(score>=28 && score<=30){
+		g_form.setValue('x_infte_esm_it_rel_risk_score','Extreme');
+	}
+	if(score>=22 && score<=27){
+		g_form.setValue('x_infte_esm_it_rel_risk_score','High');
+	}
+	if(score>=9 && score<=21){
+		g_form.setValue('x_infte_esm_it_rel_risk_score','Medium');
+	}
+	if(score>=3 && score<=8){
+		g_form.setValue('x_infte_esm_it_rel_risk_score','Low');
+	}
+	if(score>=0 && score<=2){
+		g_form.setValue('x_infte_esm_it_rel_risk_score','Negligible');
+	}
+	
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>sushil</sys_created_by>
+        <sys_created_on>2018-04-18 08:14:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>372cb06ddba193000a4f3a433a961946</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Calculate Score For Risk Survey(ESM)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ESM IT Release Management" source="x_infte_esm_it_rel">13fe8b81dba5530004bf6f048a961941</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ESM IT Release Management">13fe8b81dba5530004bf6f048a961941</sys_scope>
+        <sys_update_name>sys_script_client_372cb06ddba193000a4f3a433a961946</sys_update_name>
+        <sys_updated_by>sushil</sys_updated_by>
+        <sys_updated_on>2018-04-18 08:31:39</sys_updated_on>
+        <table>rm_release</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

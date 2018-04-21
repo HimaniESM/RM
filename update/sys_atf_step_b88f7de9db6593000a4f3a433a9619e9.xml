@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Validate that the form matches the following condition:
+1. What level of Support Planning will be necessary? = 1-Little to none
+and 2. What is anticipated service impact of the release? = 2-Decreased service performance
+and 3. What is the anticipated impact on business processes? = 2-Single Business Process
+and 4. What is the possibility of this release causing an unplanned service impact? = 2-Low
+and 5. What will be the anticipated number of impacted users with this release? = 1-Less than 10
+and 6. Are there documented and approved work instructions? = 2-Documented instructions
+and 7. Are the release notes published in advance to all relevant stakeholders? = 1-Always
+and 8. Are the results consistent? Is the outcome always same? = 1-Always
+and 9. Have there been any incidents or problem caused by this release in the past? = 1-Never
+and 10. What is the estimated cost to implement the release? = 1-Less than $1000
+With a failure timeout of 5 Seconds</description>
+        <display_name>Field Values Validation</display_name>
+        <inputs/>
+        <order>11</order>
+        <step_config display_value="Field Values Validation">1b97cd31872022008182c9ded0e3ece5</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>Amit_Kumar</sys_created_by>
+        <sys_created_on>2018-04-18 13:09:04</sys_created_on>
+        <sys_id>b88f7de9db6593000a4f3a433a9619e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Field Values Validation</sys_name>
+        <sys_package display_value="ESM IT Release Management" source="x_infte_esm_it_rel">13fe8b81dba5530004bf6f048a961941</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ESM IT Release Management">13fe8b81dba5530004bf6f048a961941</sys_scope>
+        <sys_update_name>sys_atf_step_b88f7de9db6593000a4f3a433a9619e9</sys_update_name>
+        <sys_updated_by>Amit_Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-18 13:09:04</sys_updated_on>
+        <table>rm_release</table>
+        <test display_value="Release Management-3">8afc3569db6593000a4f3a433a961961</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=b88f7de9db6593000a4f3a433a9619e9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b88f7de9db6593000a4f3a433a9619e9</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Amit_Kumar</sys_created_by>
+        <sys_created_on>2018-04-18 13:09:04</sys_created_on>
+        <sys_id>50ff352ddb6593000a4f3a433a961925</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Amit_Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-18 13:09:04</sys_updated_on>
+        <value>rm_release</value>
+        <variable display_value="">a0e13cc35320220002c6435723dc3467</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b88f7de9db6593000a4f3a433a9619e9</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Amit_Kumar</sys_created_by>
+        <sys_created_on>2018-04-18 13:09:04</sys_created_on>
+        <sys_id>9cff352ddb6593000a4f3a433a961924</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Amit_Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-18 13:09:04</sys_updated_on>
+        <value>x_infte_esm_it_rel_u_question_1=0^x_infte_esm_it_rel_u_question_2=1^x_infte_esm_it_rel_u_question_3=1^x_infte_esm_it_rel_u_question_4=1^x_infte_esm_it_rel_u_question_5=0^x_infte_esm_it_rel_u_question_6=1^x_infte_esm_it_rel_u_question_7=0^x_infte_esm_it_rel_u_question_8=0^x_infte_esm_it_rel_u_question_9=0^x_infte_esm_it_rel_u_question_10=0^EQ</value>
+        <variable display_value="">4aa838f25320220002c6435723dc34e1</variable>
+    </sys_variable_value>
+</record_update>

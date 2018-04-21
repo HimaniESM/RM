@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="x_infte_esm_it_rel_release_type" label="Release Type" language="en" table="rm_release">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>x_infte_esm_it_rel_release_type</element>
+            <help/>
+            <hint/>
+            <label>Release Type</label>
+            <language>en</language>
+            <name>rm_release</name>
+            <plural>Release Types</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>sushil</sys_created_by>
+            <sys_created_on>2018-04-17 06:40:03</sys_created_on>
+            <sys_id>dc5d5fc1dbe5530004bf6f048a961948</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Release Type</sys_name>
+            <sys_package display_value="ESM IT Release Management" source="x_infte_esm_it_rel">13fe8b81dba5530004bf6f048a961941</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ESM IT Release Management">13fe8b81dba5530004bf6f048a961941</sys_scope>
+            <sys_update_name>sys_documentation_rm_release_x_infte_esm_it_rel_release_type_en</sys_update_name>
+            <sys_updated_by>sushil</sys_updated_by>
+            <sys_updated_on>2018-04-17 06:40:03</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

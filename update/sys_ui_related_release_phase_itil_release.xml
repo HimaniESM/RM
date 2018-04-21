@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_related sys_domain="global" table="release_phase" version="2" view="ITIL_Release">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Release Phase - ITIL Release" name="release_phase" related_list="NULL" sys_domain="global" view="db5bd781dbe5530004bf6f048a9619e1">78478d1ddbe9530004bf6f048a9619e4</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>REL:c4262f49dbe5530004bf6f048a961933</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>sushil</sys_created_by>
+            <sys_created_on>2018-04-17 14:22:56</sys_created_on>
+            <sys_id>30478d1ddbe9530004bf6f048a9619e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sushil</sys_updated_by>
+            <sys_updated_on>2018-04-17 14:22:56</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Release Phase - ITIL Release</calculated_name>
+            <filter/>
+            <name>release_phase</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>sushil</sys_created_by>
+            <sys_created_on>2018-04-17 14:22:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>78478d1ddbe9530004bf6f048a9619e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Release Phase - ITIL Release</sys_name>
+            <sys_package display_value="ESM IT Release Management" source="x_infte_esm_it_rel">13fe8b81dba5530004bf6f048a961941</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ESM IT Release Management">13fe8b81dba5530004bf6f048a961941</sys_scope>
+            <sys_update_name>sys_ui_related_release_phase_ITIL_Release</sys_update_name>
+            <sys_updated_by>sushil</sys_updated_by>
+            <sys_updated_on>2018-04-17 14:22:56</sys_updated_on>
+            <sys_user/>
+            <view display_value="ITIL Release" name="ITIL_Release">db5bd781dbe5530004bf6f048a9619e1</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

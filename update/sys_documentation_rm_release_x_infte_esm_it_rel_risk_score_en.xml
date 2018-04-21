@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="x_infte_esm_it_rel_risk_score" label="Risk Score" language="en" table="rm_release">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>x_infte_esm_it_rel_risk_score</element>
+            <help/>
+            <hint/>
+            <label>Risk Score</label>
+            <language>en</language>
+            <name>rm_release</name>
+            <plural>Risk Scores</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>sushil</sys_created_by>
+            <sys_created_on>2018-04-17 06:45:45</sys_created_on>
+            <sys_id>f39e1f05dbe5530004bf6f048a961944</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Risk Score</sys_name>
+            <sys_package display_value="ESM IT Release Management" source="x_infte_esm_it_rel">13fe8b81dba5530004bf6f048a961941</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ESM IT Release Management">13fe8b81dba5530004bf6f048a961941</sys_scope>
+            <sys_update_name>sys_documentation_rm_release_x_infte_esm_it_rel_risk_score_en</sys_update_name>
+            <sys_updated_by>sushil</sys_updated_by>
+            <sys_updated_on>2018-04-17 06:45:45</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

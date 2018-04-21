@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_test_suite_test">
+    <sys_atf_test_suite_test action="INSERT_OR_UPDATE">
+        <abort_on_failure>false</abort_on_failure>
+        <order>4</order>
+        <sys_class_name>sys_atf_test_suite_test</sys_class_name>
+        <sys_created_by>Amit_Kumar</sys_created_by>
+        <sys_created_on>2018-04-19 11:19:02</sys_created_on>
+        <sys_id>ab407e75db21d30004bf6f048a961926</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>e9a0826ddb6593000a4f3a433a9619a3</sys_name>
+        <sys_package display_value="ESM IT Release Management" source="x_infte_esm_it_rel">13fe8b81dba5530004bf6f048a961941</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ESM IT Release Management">13fe8b81dba5530004bf6f048a961941</sys_scope>
+        <sys_update_name>sys_atf_test_suite_test_ab407e75db21d30004bf6f048a961926</sys_update_name>
+        <sys_updated_by>Amit_Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-19 11:19:07</sys_updated_on>
+        <test display_value="Release Managemenr-4">3faa66fddbed930004bf6f048a9619d0</test>
+        <test_suite display_value="Release management">e9a0826ddb6593000a4f3a433a9619a3</test_suite>
+    </sys_atf_test_suite_test>
+</record_update>

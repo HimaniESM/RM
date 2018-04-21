@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="planned_task" label="Release" max_length="40" name="rm_release" sizeclass="61" type="collection">
+        <element label="Change Tickets" max_length="4000" name="x_infte_esm_it_rel_change_tickets" reference="change_request" reference_qual="active=true^stateNOT IN3,4^type=normal^EQ" reference_qual_condition="active=true^stateNOT IN3,4^type=normal^EQ" type="glide_list"/>
+        <element label="Emergency Changes" max_length="4000" name="x_infte_esm_it_rel_emergency_changes" reference="change_request" reference_qual="stateNOT IN3,4^type=emergency^EQ" reference_qual_condition="stateNOT IN3,4^type=emergency^EQ" type="glide_list"/>
+        <element choice="1" label="Impact on the availability of CI" max_length="40" name="x_infte_esm_it_rel_impact_on_the_availability_of_ci" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Outage Information" max_length="40" name="x_infte_esm_it_rel_outage_information" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Phase Number" max_length="40" name="x_infte_esm_it_rel_phase_number" type="string"/>
+        <element label="Planned end date" max_length="40" name="x_infte_esm_it_rel_planned_end_date" type="glide_date"/>
+        <element label="Planned QA Date" max_length="40" name="x_infte_esm_it_rel_planned_qa_date" type="glide_date"/>
+        <element label="Planned UAT Date" max_length="40" name="x_infte_esm_it_rel_planned_uat_date" type="glide_date"/>
+        <element choice="1" label="Release Category" max_length="40" name="x_infte_esm_it_rel_release_category" type="choice">
+            <choice>
+                <element label="Emergency" sequence="100" value="emergency"/>
+                <element label="Normal" sequence="200" value="normal"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Release Phase Number" max_length="40" name="x_infte_esm_it_rel_release_phase_number" type="string"/>
+        <element choice="1" label="Release Type" max_length="40" name="x_infte_esm_it_rel_release_type" type="choice">
+            <choice>
+                <element label="Major Release" sequence="100" value="major_release"/>
+                <element label="Minor Release" sequence="200" value="minor_release"/>
+            </choice>
+        </element>
+        <element label="Risk Score" max_length="40" name="x_infte_esm_it_rel_risk_score" type="string"/>
+        <element choice="1" label="1. What level of Support Planning will be necessary?" max_length="40" name="x_infte_esm_it_rel_u_question_1" type="choice">
+            <choice>
+                <element label="1-Little to none" sequence="1" value="0"/>
+                <element label="2-Minor" sequence="2" value="1"/>
+                <element label="3-Major, Change to Existing Service" sequence="3" value="2"/>
+                <element label="4-Significant, New Service" sequence="4" value="3"/>
+            </choice>
+        </element>
+        <element choice="1" label="10. What is the estimated cost to implement the release?" max_length="40" name="x_infte_esm_it_rel_u_question_10" type="choice">
+            <choice>
+                <element label="1-Less than $1000" sequence="1" value="0"/>
+                <element label="2-$1000 to $10,000" sequence="2" value="1"/>
+                <element label="3-$10,000 to $100,000" sequence="3" value="2"/>
+                <element label="4-more than $100,000" sequence="4" value="3"/>
+            </choice>
+        </element>
+        <element choice="1" label="2. What is anticipated service impact of the release?" max_length="40" name="x_infte_esm_it_rel_u_question_2" type="choice">
+            <choice>
+                <element label="1-No Impact anticipated" sequence="1" value="0"/>
+                <element label="2-Decreased service performance" sequence="2" value="1"/>
+                <element label="3-Brief Service Interruption" sequence="3" value="2"/>
+                <element label="4-High" sequence="4" value="3"/>
+            </choice>
+        </element>
+        <element choice="1" label="3. What is the anticipated impact on business processes?" max_length="40" name="x_infte_esm_it_rel_u_question_3" type="choice">
+            <choice>
+                <element label="1-No Impact anticipated" sequence="1" value="0"/>
+                <element label="2-Single Business Process" sequence="2" value="1"/>
+                <element label="3-Multiple Business Processes" sequence="3" value="2"/>
+                <element label="4-Entire Business Units" sequence="4" value="3"/>
+            </choice>
+        </element>
+        <element choice="1" label="4. What is the possibility of this release causing an unplanned service impact?" max_length="40" name="x_infte_esm_it_rel_u_question_4" type="choice">
+            <choice>
+                <element label="1-Very Low" sequence="1" value="0"/>
+                <element label="2-Low" sequence="2" value="1"/>
+                <element label="3-Medium" sequence="3" value="2"/>
+                <element label="4-High" sequence="4" value="3"/>
+            </choice>
+        </element>
+        <element choice="1" label="5. What will be the anticipated number of impacted users with this release?" max_length="40" name="x_infte_esm_it_rel_u_question_5" type="choice">
+            <choice>
+                <element label="1-Less than 10" sequence="1" value="0"/>
+                <element label="2-Between 50 to 100" sequence="2" value="1"/>
+                <element label="3-More than 100" sequence="3" value="2"/>
+                <element label="4-Everyone Impacted" sequence="4" value="3"/>
+            </choice>
+        </element>
+        <element choice="1" label="6. Are there documented and approved work instructions?" max_length="40" name="x_infte_esm_it_rel_u_question_6" type="choice">
+            <choice>
+                <element label="1-Approved, documented instructions" sequence="1" value="0"/>
+                <element label="2-Documented instructions" sequence="2" value="1"/>
+                <element label="3-Undocumented Instructions" sequence="3" value="2"/>
+                <element label="4-None" sequence="4" value="3"/>
+            </choice>
+        </element>
+        <element choice="1" label="7. Are the release notes published in advance to all relevant stakeholders?" max_length="40" name="x_infte_esm_it_rel_u_question_7" type="choice">
+            <choice>
+                <element label="1-Always" sequence="1" value="0"/>
+                <element label="2-Usually" sequence="2" value="1"/>
+                <element label="3-Sometimes" sequence="3" value="2"/>
+                <element label="4-No" sequence="4" value="3"/>
+            </choice>
+        </element>
+        <element choice="1" label="8. Are the results consistent? Is the outcome always same?" max_length="40" name="x_infte_esm_it_rel_u_question_8" type="choice">
+            <choice>
+                <element label="1-Always" sequence="1" value="0"/>
+                <element label="2-Usually" sequence="2" value="1"/>
+                <element label="3-Sometimes" sequence="3" value="2"/>
+                <element label="4-No" sequence="4" value="3"/>
+            </choice>
+        </element>
+        <element choice="1" label="9. Have there been any incidents or problem caused by this release in the past?" max_length="40" name="x_infte_esm_it_rel_u_question_9" type="choice">
+            <choice>
+                <element label="1-Never" sequence="1" value="0"/>
+                <element label="2-Once" sequence="2" value="1"/>
+                <element label="3-A few times" sequence="3" value="2"/>
+                <element label="4-Frequently" sequence="4" value="3"/>
+            </choice>
+        </element>
+    </element>
+</database>

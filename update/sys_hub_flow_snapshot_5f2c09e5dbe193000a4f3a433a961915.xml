@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <label_cache>[{"name":"Updated_1.current","label":"Trigger➛Release Record","reference":"rm_release","reference_display":"Release","type":"reference","base_type":"reference"}]</label_cache>
+        <name>Active true if state is testing(ESM)</name>
+        <parent_flow display_value="Active true if state is testing(ESM)">26ba49a5dbe193000a4f3a433a961925</parent_flow>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>sushil</sys_created_by>
+        <sys_created_on>2018-04-18 09:22:54</sys_created_on>
+        <sys_id>5f2c09e5dbe193000a4f3a433a961915</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Active true if state is testing(ESM)</sys_name>
+        <sys_package display_value="ESM IT Release Management" source="x_infte_esm_it_rel">13fe8b81dba5530004bf6f048a961941</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ESM IT Release Management">13fe8b81dba5530004bf6f048a961941</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_5f2c09e5dbe193000a4f3a433a961915</sys_update_name>
+        <sys_updated_by>sushil</sys_updated_by>
+        <sys_updated_on>2018-04-18 09:22:54</sys_updated_on>
+    </sys_hub_flow_snapshot>
+</record_update>

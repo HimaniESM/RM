@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_infte_esm_it_rel.RMscriptinclude</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>RMscriptinclude</name>
+        <script><![CDATA[var RMscriptinclude = Class.create();
+RMscriptinclude.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    getApproverrDetails : function()
+	{
+		var parentId = this.getParameter('sysparm_parentId');
+		var gr= new GlideRecord('sysapproval_approver');
+		gr.addQuery('state','NOT IN','approved,not_required');
+		gr.addQuery('sysapproval',parentId);
+				gr.query();
+		if(gr.next()){
+			//alert('Please get the appproval');
+			return "Pending Approval";
+		}
+	},
+	gettaskstate : function()
+	{
+		var sysid = this.getParameter('sysparm_number');
+		var gr= new GlideRecord('rm_task');
+		gr.addQuery('state','!=',3);
+		gr.addQuery('x_infte_esm_it_rel_phase_number',sysid);
+		gr.query();
+		if(gr.next()){
+			return "Please close the associated task.";
+		}
+}
+	
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>sushil</sys_created_by>
+        <sys_created_on>2018-04-17 11:01:47</sys_created_on>
+        <sys_id>25641c59db69530004bf6f048a9619b6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>RMscriptinclude</sys_name>
+        <sys_package display_value="ESM IT Release Management" source="x_infte_esm_it_rel">13fe8b81dba5530004bf6f048a961941</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="ESM IT Release Management">13fe8b81dba5530004bf6f048a961941</sys_scope>
+        <sys_update_name>sys_script_include_25641c59db69530004bf6f048a9619b6</sys_update_name>
+        <sys_updated_by>sushil</sys_updated_by>
+        <sys_updated_on>2018-04-17 11:27:30</sys_updated_on>
+    </sys_script_include>
+</record_update>
