@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="planned_task" label="Release" max_length="40" name="rm_release" sizeclass="61" type="collection">
+    <element audit="true" extends="planned_task" label="Version" max_length="40" name="rm_release" sizeclass="4" type="collection">
         <element label="Change Tickets" max_length="4000" name="x_infte_esm_it_rel_change_tickets" reference="change_request" reference_qual="active=true^stateNOT IN3,4^type=normal^EQ" reference_qual_condition="active=true^stateNOT IN3,4^type=normal^EQ" type="glide_list"/>
         <element label="Emergency Changes" max_length="4000" name="x_infte_esm_it_rel_emergency_changes" reference="change_request" reference_qual="stateNOT IN3,4^type=emergency^EQ" reference_qual_condition="stateNOT IN3,4^type=emergency^EQ" type="glide_list"/>
         <element choice="1" label="Impact on the availability of CI" max_length="40" name="x_infte_esm_it_rel_impact_on_the_availability_of_ci" type="choice">

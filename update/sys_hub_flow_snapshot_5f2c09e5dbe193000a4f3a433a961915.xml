@@ -6,6 +6,7 @@
         <label_cache>[{"name":"Updated_1.current","label":"Trigger➛Release Record","reference":"rm_release","reference_display":"Release","type":"reference","base_type":"reference"}]</label_cache>
         <name>Active true if state is testing(ESM)</name>
         <parent_flow display_value="Active true if state is testing(ESM)">26ba49a5dbe193000a4f3a433a961925</parent_flow>
+        <remote_trigger_id/>
         <status>published</status>
         <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
         <sys_created_by>sushil</sys_created_by>

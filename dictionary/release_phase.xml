@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="Release Phase" max_length="40" name="release_phase" sizeclass="51" text_index="true" type="collection">
+    <element audit="true" extends="task" label="Phase de mise en production" max_length="40" name="release_phase" sizeclass="4" text_index="true" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Phase Number" max_length="40" name="x_infte_esm_it_rel_phase_number" type="string"/>
     </element>
 </database>
